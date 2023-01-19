@@ -1,0 +1,62 @@
+Expo : platform for making universal native apps for android, iOS and the web with javascript and react
+Installing expo cli : $ npm i -g expo-cli or put sudo before installing
+Installing the starter project : 
+$ npx create-expo-app deliveroo
+
+------------------------------------------------------------------------
+tailwind css in react-native : 
+https://www.nativewind.dev/quick-starts/react-native-cli
+
+$ npm install nativewind
+$ npm install --dev tailwindcss
+
+add tailwind.config.js file to your project and paste Setup Tailwind CSS module with content +
+add properties to the content key i.e. replace the <custom-folder> with pages &/or screens or any folder that will contian tailwind classes
+
+Add the Babel plugin with + plugins
+
+have the tailwind css intellisense extension
+
+restart the server
+
+play with the classNames now
+
+------------------------------------------------------------------------
+
+React native navigation : 
+https://reactnavigation.org/docs/getting-started
+
+$ npm install @react-navigation/native
+$ npx expo install react-native-screens react-native-safe-area-context
+
+wrap the entire app with navigation container 
+$ npm install @react-navigation/native-stack
+
+const Stack = createNativeStackNavigator();     // obviously need to import
+wrap navigation pages as <Stack.Navigator></Stack.Navigator>
+
+------------------------------------------------------------------------
+Icons : 
+react native hero icons
+$ npm i react-native-heroicons
+$ npm i react-native-heroicons react-native-svg
+$ npm i react-native-svg
+
+------------------------------------------------------------------------
+Redux tool kit 
+Redux --> global state management technique
+$ npm install @reduxjs/toolkit react-redux
+
+------------------------------------------------------------------------
+React-native animation 
+https://github.com/oblador/react-native-animatable
+$ npm install react-native-animatable --save
+
+React-native Progress 
+https://www.npmjs.com/package/react-native-progress
+$ npm i react-native-progress
+
+------------------------------------------------------------------------
+react-native maps
+won't work for web
+$ npx expo install react-native-maps
