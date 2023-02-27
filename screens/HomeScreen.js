@@ -26,7 +26,6 @@ import FeaturedRow from "../Components/FeaturedRow";
 const HomeScreen = () => {
   const navigation = useNavigation();
   // useNavigation() returns the navigation prop of the screen it's inside.
-
   console.log(navigation);
 
   // useLayoutEffect is a version of useEffect that fires before the browser repaints the screen.

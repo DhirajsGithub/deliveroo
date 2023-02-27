@@ -40,7 +40,9 @@ Icons :
 react native hero icons
 $ npm i react-native-heroicons
 $ npm i react-native-heroicons react-native-svg
+$ npm install react-native-svg-transformer --save 
 $ npm i react-native-svg
+$ npx expo install react-native-svg
 
 ------------------------------------------------------------------------
 Redux tool kit 
@@ -60,3 +62,8 @@ $ npm i react-native-progress
 react-native maps
 won't work for web
 $ npx expo install react-native-maps
+
+------------------------------------------------------------------------
+will add safe area to android as well 
+$ npm i react-native-safe-area-context
+import { SafeAreaView } from "react-native-safe-area-context";
